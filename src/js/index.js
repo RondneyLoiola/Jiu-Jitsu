@@ -78,11 +78,4 @@ document.addEventListener('DOMContentLoaded', function () {
             hideInfo();
         }
     });
-
-
-    document.addEventListener('click', function(e) {
-        if (!infoDiv.contains(e.target)) {
-            infoDiv.style.display = 'none';
-        }
-    });
 });
