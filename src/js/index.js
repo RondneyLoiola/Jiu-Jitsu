@@ -80,4 +80,30 @@ document.addEventListener('DOMContentLoaded', function () {
             hideInfo();
         }
     });
-});
+
+    ScrollReveal().reveal('#home .box', {
+        origin: 'bottom',
+        distance: '10%',
+        duration: 2000
+    })
+
+    ScrollReveal().reveal('#about .container', {
+        origin: 'bottom',
+        distance: '10%',
+        duration: 2000
+    })
+
+    ScrollReveal().reveal('#history .pack', {
+        origin: 'bottom',
+        distance: '10%',
+        duration: 2000
+    })
+
+    ScrollReveal().reveal('#belts .pack', {
+        origin: 'bottom',
+        distance: '10%',
+        duration: 2000
+    })
+          
+})
+
