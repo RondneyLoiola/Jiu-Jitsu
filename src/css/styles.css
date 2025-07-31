@@ -86,8 +86,11 @@ header section ul {
     height: 100vh;
     width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://wallpapers.com/images/hd/brazilian-jiu-jitsu-sports-practice-bf8v9h8cfnatcnso.jpg);
+}
 
-
+.about h2 {
+    position: relative;
+    top: 2rem;
 }
 
 .about .box {
@@ -99,7 +102,7 @@ header section ul {
     border: none;
     border-radius: 20px;
     position: relative;
-    top: 35%;
+    top: 38%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
@@ -118,6 +121,7 @@ header section ul {
     width: 100%;
     min-height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://wallpapers.com/images/hd/brazilian-jiu-jitsu-sports-practice-bf8v9h8cfnatcnso.jpg);
+    padding-top: 2rem;
 }
 
 .history .container {
@@ -125,7 +129,6 @@ header section ul {
     margin-left: 15rem;
 
     h3 {
-        padding-top: 2rem;
         padding-left: 27%;
         font-family: 'Courier New', Courier, monospace;
         font-size: 4rem;
@@ -135,7 +138,6 @@ header section ul {
     .box,
     .box2 {
         padding: 2rem;
-        margin-top: -20px;
         margin-bottom: -50px;
 
         h3 {
@@ -148,7 +150,6 @@ header section ul {
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
             font-family: 'Poppins';
-
         }
 
         p {
@@ -183,30 +184,35 @@ header section ul {
     box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.2);
 }
 
-.belts .box h2 {
-    color: #fff;
-    font-size: 6rem;
-    display: flex;
-    justify-content: center;
-    padding: 1rem;
-    padding-bottom: 2rem;
+.belts .box .kid-container .kid{
+    z-index: 90;
+}
 
+.belts .box h2 {
+    position: relative;
+    top: 4rem;
 }
 
 .belts .box .kid-container .kid ul {
     display: flex;
     gap: 2rem;
     position: absolute;
-    top: 30%;
+    top: 35%;
     left: 30%;
     transform: translate(-50%, -50%);
     margin-left: 20%;
+    
 }
 
 .belts .box .kid-container .kid ul .faixa img {
     width: 200px;
     object-fit: cover;
     padding: 1rem;
+}
+
+.belts .box .kid-container .kid ul li p {
+    position: relative;
+    top: .7rem;
 }
 
 .belts .box .kid-container .kid ul li button {
@@ -216,7 +222,7 @@ header section ul {
     height: 30px;
     border-radius: 12px;
     position: relative;
-    top: 10px;
+    top: 35px;
     box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -235,12 +241,18 @@ header section ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 2rem;
+    
 }
 
 .belts .box2 {
-    position: relative;
     margin-top: -5rem;
+    position: relative;
+    top: 5rem;
+}
+
+.belts .box2 h2 {
+    position: relative;
+    top: 1.5rem;
 }
 
 .belts .box2 .adult-container .adult ul {
@@ -264,8 +276,11 @@ header section ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 2rem;
+}
 
+.belts .box2 .adult-container .adult ul li p {
+    position: relative;
+    top: .7rem;
 }
 
 .belts .box2 .adult-container .adult ul li button {
@@ -275,7 +290,7 @@ header section ul {
     height: 30px;
     border-radius: 12px;
     position: relative;
-    top: 10px;
+    top: 35px;
     box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -286,7 +301,8 @@ header section ul {
 }
 
 .belts .box2 {
-    padding-top: 20rem;
+    position: relative;
+    top: 24rem;
 }
 
 .add {
@@ -363,7 +379,7 @@ header section ul {
 }
 
 #info-branca-infantil,
-#info-cinza-infatil,
+#info-cinza-infantil,
 #info-amarela-infantil,
 #info-laranja-infantil,
 #info-verde-infantil {
@@ -373,7 +389,7 @@ header section ul {
     display: none;
     background-color: rgb(238, 238, 238);
     border-radius: 20px;
-    border: none;
+    border: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -388,3 +404,5 @@ header section ul {
         margin-top: 100px;
     }
 }
+
+

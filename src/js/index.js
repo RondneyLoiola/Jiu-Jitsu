@@ -20,11 +20,13 @@ window.addEventListener('scroll', function () {
 document.addEventListener('DOMContentLoaded', function () {
     // Mapeamento dos botões para as divs de informação
     const beltMap = {
+        // infantil
         'branca-infantil': 'info-branca-infantil',
         'cinza-infantil': 'info-cinza-infantil',
         'amarela-infantil': 'info-amarela-infantil',
         'laranja-infantil': 'info-laranja-infantil',
         'verde-infantil': 'info-verde-infantil',
+        //adulta
         'branca-adulta': 'info-branca-adulta',
         'azul-adulta': 'info-azul-adulta',
         'roxa-adulta': 'info-roxa-adulta',
